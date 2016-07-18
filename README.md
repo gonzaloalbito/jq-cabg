@@ -2,6 +2,10 @@
 jQuery Canvas Animated Backgrounds are a set of interactive JS canvas backgrounds developed for learning and entertainment.
 
 ----
+## Demo
+https://the1soulhunter.github.io/jq-cabg/
+
+----
 ## Documentation
 There is no documentation by now
 
