@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+	<head>
+		<title>jQuery Canvas Animated Backgrounds</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="description" content="" />
+		<meta name="author" content="Gonzalo Albito Méndez Rey" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-cabg-demo.js"></script>
+		<script type="text/javascript" src="../jquery-cabg-balloon.js"></script>
+		<script type="text/javascript" src="../jquery-cabg-circlus.js"></script>
+		<script type="text/javascript" src="../jquery-cabg-cooqui.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h3><a href="https://github.com/gonzaloalbito/jq-cabg" target="_blank">jQuery Canvas Animated Backgrounds</a></h3>
+			<div class="content">
+				<div class="options-content">
+					<p>Select an option:</p>
+					<ul class="options">
+						<li class="option cooqui" data-option="cooqui">Cooqui</li>
+						<li class="option circlus" data-option="circlus">Circlus</li>
+						<li class="option ballooner" data-option="ballooner">Ballooner</li>
+					</ul>
+				</div>
+				<div class="codes-content">
+					<h4>Code:</h4>
+<pre class="codes"><code class="code cooqui"data-option="cooqui">
+jQuery("body").cooqui({
+	fps: 60,
+	scale: 1,
+	distance: 100,
+	background: "#fac979",
+	spacing: 25,
+	itemSize: 10,
+	itemScale: 2.0,
+	itemColors: ["#ffffff"],
+	unique: true,
+});
+</code><code class="code circlus" data-option="circlus">
+jQuery("body").circlus({
+	fps: 30,
+	scale: 1,
+	background: false,
+	items: 15,
+	itemMinSpeed: 1000,
+	itemMaxSpeed: 2500,
+	itemMinSize: 20,
+	itemMaxSize: 50,
+	itemShapes: ["circle"],
+	itemColors: ["#0000ff",
+		"#00ff00",
+		"#00ffff",
+		"#ff0000",
+		"#ff00ff",
+		"#ffff00"],
+	unique: true,
+});
+</code><code class="code ballooner" data-option="ballooner">
+jQuery("body").ballooner({
+	fps: 60,
+	scale: 1,
+	distance: 100,
+	background: "#b3e8ff",
+	balloons: 10,
+	balloonFactor: 0.4,
+	balloonGradient: 3,
+	balloonMinSize: 25,
+	balloonMaxSize: 50,
+	balloonScale: 2.0,
+	balloonColors: ["#0000ff",
+		"#00ff00",
+		"#00ffff",
+		"#ff0000",
+		"#ff00ff",
+		"#ffff00"],
+	lightColor: "#ffffff",
+	tieWidth: 0.12,
+	tieHeight: 0.10,
+	tieCurve: 0.13,
+	minWind: 10,
+	maxWind: 50,
+	balloonMinSpeed: 50,
+	balloonMaxSpeed: 100,
+	unique: true,
+});
+</code></pre>
+				</div>
+			</div>
+			<div class="license">
+				<p>Copyright (c) 2016 <a href="mailto:gonzalo@albito.es">Gonzalo Albito Méndez Rey</a></p>
+				<p>Licensed under <a href="https://www.gnu.org/licenses/gpl-3.0-standalone.html" target="_blank">GNU GPL 3.0</a></p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+body{
+	width: 100%;
+	min-width: 320px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: #efefef;
+}
+#container{
+	width: 70%;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.content{
+	margin: 40px auto;
+}
+.license{
+	font-size: 12px;
+	margin-top: 60px;
+}
+.options{
+	list-style: none;
+	&>.option{
+		display: inline-block;
+		width: auto;
+		padding: 5px 10px;
+		margin: 0px;
+		margin-right: 20px;
+		cursor: pointer;
+		border: 1px outset #fff;
+		background-color: rgba(128, 128, 128, 0.1);
+		&>.active,&>:active,&>:hover{
+			border-style: inset;
+			background-color: rgba(128, 128, 128, 0.2);
+		}
+	}
+}
+.codes{
+	display: inline-block;
+	padding: 0px 20px 20px 20px;
+	border: 1px solid #ccc;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: left;
+	font-size: 14px;
+	font-family: monospace;
+}
+.codes-content{
+	margin-top: 40px;
+	h4{
+		margin-bottom: 0px;
+	}
+}

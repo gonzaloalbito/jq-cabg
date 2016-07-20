@@ -3,7 +3,6 @@
  *	Copyright (c) 2016 Gonzalo Albito Méndez Rey
  *	Licensed under GNU GPL 3.0 (https://www.gnu.org/licenses/gpl-3.0-standalone.html)
  *	@version	0.8.1	(2016-07-18)
- *	@version	0.8.1	(2016-07-18)
  *	@author		Gonzalo Albito Méndez Rey	<gonzalo@albito.es>
  *	@license	GPL-3.0
  */
